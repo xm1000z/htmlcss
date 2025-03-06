@@ -1,0 +1,65 @@
+h1{
+    color: #ffffff;
+    font-size: 35px;
+    font-family: Georgia;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+h2{
+    font-family: Georgia;
+    color: #ffffff;
+}
+h3{
+    font-family: Georgia;
+    color: #ffffff;
+}
+p{
+    font-family: Georgia;
+    color: #ffffff;
+}
+li {
+    font-family: Georgia;
+    color: #ffffff;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+a{
+    font-family: Georgia;
+    color: #ffffff;
+}
+form{
+    font-family: Georgia;
+    color: #ffffff;
+}
+main{
+    font-family: Georgia;
+    color: #ffffff;
+}
+.imagen{
+    border-radius: 5px;
+    width: 1050px;
+    margin-top: 60px;
+}
+input{
+    background-color: #242424;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+}
+textarea{
+    background-color: #242424;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+}
+.imagen2{
+    border-radius: 5px;
+    width: 350px;
+}
+
