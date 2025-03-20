@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Contacto - Bad Bunny</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilo.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "name": "Contacto Bad Bunny",
+      "description": "Formulario de contacto para fans de Bad Bunny"
+    }
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Bad Bunny</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="discos.html">Discos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="videoclips.html">Videoclips</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="conciertos.html">Conciertos</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h1 class="mb-4">Contacto</h1>
+                <p class="lead mb-4">¿Quieres contratar a Bad Bunny para un evento o tienes alguna consulta? Completa el siguiente formulario y nos pondremos en contacto contigo lo antes posible.</p>
+                
+                <div class="card shadow mb-5">
+                    <div class="card-body p-4">
+                        <form id="contactForm">
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="nombre">Nombre <span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Tu nombre" required autofocus>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="apellido">Apellido <span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" id="apellido" name="apellido" placeholder="Tu apellido" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="email">Email <span class="text-danger">*</span></label>
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="ejemplo@correo.com" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="telefono">Teléfono</label>
+                                    <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="Tu número de teléfono" pattern="[0-9]{9,12}">
+                                    <small class="form-text text-muted">Formato: solo números (9-12 dígitos)</small>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="tipoConsulta">Tipo de consulta <span class="text-danger">*</span></label>
+                                <select class="form-control" id="tipoConsulta" name="tipoConsulta" required>
+                                    <option value="" selected disabled>Selecciona el tipo de consulta</option>
+                                    <option value="contratacion">Contratación para evento</option>
+                                    <option value="prensa">Prensa/Medios</option>
+                                    <option value="fans">Club de fans</option>
+                                    <option value="merchandising">Merchandising</option>
+                                    <option value="otros">Otros</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="mensaje">Mensaje <span class="text-danger">*</span></label>
+                                <textarea class="form-control" id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required minlength="10" maxlength="500"></textarea>
+                                <small class="form-text text-muted">Mínimo 10 caracteres, máximo 500</small>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="fecha">Fecha del evento (si aplica)</label>
+                                <input type="date" class="form-control" id="fecha" name="fecha" min="2025-01-01">
+                            </div>
+                            
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="privacidad" name="privacidad" required>
+                                <label class="form-check-label" for="privacidad">Acepto la política de privacidad <span class="text-danger">*</span></label>
+                            </div>
+                            
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">Enviar mensaje</button>
+                                <button type="reset" class="btn btn-secondary btn-lg ml-2">Limpiar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="alert alert-info" role="alert">
+                    <p class="mb-0"><strong>Nota:</strong> Este es un sitio de fans no oficial. No podemos garantizar que los mensajes lleguen directamente a Bad Bunny o su equipo.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>© 2025 Bad Bunny Fan Page - Sitio no oficial</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
