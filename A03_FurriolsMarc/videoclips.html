@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Videoclips de Bad Bunny. Los mejores videos musicales del artista puertorriqueño.">
+    <meta name="keywords" content="Bad Bunny videos, videoclips Bad Bunny, videos musicales Bad Bunny">
+    <meta name="author" content="Marc Furriols">
     <title>Videoclips de Bad Bunny</title>
-    <link rel="icon" href="https://i.scdn.co/image/ab6761610000e5eb8ee9a6f54dcbd4bc95126b14" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./estilo.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="https://i.scdn.co/image/ab6761610000e5eb8ee9a6f54dcbd4bc95126b14" type="image/x-icon">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
@@ -21,16 +24,23 @@
                         <a class="nav-link" href="./index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../A03_FurriolsMarc/discos.html">Discos</a>
+                        <a class="nav-link" href="./productos.html">Productos</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="../A03_FurriolsMarc/videoclips.html">Videoclips</a>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Descubre más
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="./albumes.html">Álbumes</a>
+                            <a class="dropdown-item active" href="./videoclips.html">Videoclips</a>
+                            <a class="dropdown-item" href="./conciertos.html">Conciertos</a>
+                        </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../A03_FurriolsMarc/conciertos.html">Conciertos</a>
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../A03_FurriolsMarc/contacto.html">Contacto</a>
+                        <a class="nav-link text-muted" href="./desactivada.html">Prensa</a>
                     </li>
                 </ul>
             </div>
@@ -39,81 +49,120 @@
 
     <div class="container">
         <h1 class="mb-4">Videoclips</h1>
-        <p class="lead">Disfruta de fragmentos de los mejores videoclips de Bad Bunny.</p>
+        
+        <div class="row mb-4">
+            <div class="col-12">
+                <p class="lead">Disfruta de los videoclips más populares de Bad Bunny. Una selección de sus mejores videos musicales con millones de visualizaciones en YouTube.</p>
+            </div>
+        </div>
         
         <div class="row">
-            <div class="col-md-4 mb-4">
-                <div class="video-container mb-4">
-                    <h4>Me Porto Bonito</h4>
-                    <video controls poster="https://i.ytimg.com/vi/saGYMhApaH8/maxresdefault.jpg" class="w-100">
-                        <source src="./videos/me-porto-bonito.mp4" type="video/mp4">
-                        Tu navegador no soporta este video.
-                    </video>
-                    <script type="application/ld+json">
-                    {
-                      "@context": "https://schema.org",
-                      "@type": "VideoObject",
-                      "name": "Me Porto Bonito",
-                      "description": "Fragmento del videoclip 'Me Porto Bonito' de Bad Bunny con Chencho Corleone",
-                      "thumbnailUrl": "https://i.ytimg.com/vi/saGYMhApaH8/maxresdefault.jpg",
-                      "uploadDate": "2022-05-06",
-                      "contentUrl": "./videos/me-porto-bonito.mp4",
-                      "duration": "PT15S"
-                    }
-                    </script>
-                    <p class="mt-3">Videoclip para la canción que formó parte del álbum "Un Verano Sin Ti" (2022), con la colaboración de Chencho Corleone.</p>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Tití Me Preguntó</h5>
+                        <p class="card-text">Del álbum "Un Verano Sin Ti" (2022). Más de 800 millones de visitas en YouTube.</p>
+                    </div>
+                    <div class="ratio ratio-16x9">
+                        <video class="card-img-top" controls>
+                            <source src="./videos/titi-me-pregunto.mp4" type="video/mp4">
+                            Tu navegador no soporta el elemento de video.
+                        </video>
+                    </div>
+                    <div class="card-footer">
+                        <p>Este colorido videoclip fue dirigido por el propio Bad Bunny junto a Stillz, y muestra escenas de la República Dominicana y Puerto Rico. La temática es divertida y con toques de comedia.</p>
+                    </div>
                 </div>
             </div>
             
-            <div class="col-md-4 mb-4">
-                <div class="video-container mb-4">
-                    <h4>Tití Me Preguntó</h4>
-                    <video controls poster="https://i.ytimg.com/vi/Cr8K88UcO0s/maxresdefault.jpg" class="w-100">
-                        <source src="./videos/titi-me-pregunto.mp4" type="video/mp4">
-                        Tu navegador no soporta este video.
-                    </video>
-                    <script type="application/ld+json">
-                    {
-                      "@context": "https://schema.org",
-                      "@type": "VideoObject",
-                      "name": "Tití Me Preguntó",
-                      "description": "Fragmento del videoclip 'Tití Me Preguntó' de Bad Bunny",
-                      "thumbnailUrl": "https://i.ytimg.com/vi/Cr8K88UcO0s/maxresdefault.jpg",
-                      "uploadDate": "2022-05-02",
-                      "contentUrl": "./videos/titi-me-pregunto.mp4",
-                      "duration": "PT12S"
-                    }
-                    </script>
-                    <p class="mt-3">Video musical para una de las canciones más populares del álbum "Un Verano Sin Ti" que muestra a Bad Bunny celebrando una boda en República Dominicana.</p>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Moscow Mule</h5>
+                        <p class="card-text">Del álbum "Un Verano Sin Ti" (2022). Más de 500 millones de visitas en YouTube.</p>
+                    </div>
+                    <div class="ratio ratio-16x9">
+                        <video class="card-img-top" controls>
+                            <source src="./videos/moscow-mule.mp4" type="video/mp4">
+                            Tu navegador no soporta el elemento de video.
+                        </video>
+                    </div>
+                    <div class="card-footer">
+                        <p>Filmado en Miami y Puerto Rico, este videoclip muestra a Bad Bunny disfrutando de la playa y transformándose en una sirena. El video fue dirigido por Stillz.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Me Porto Bonito ft. Chencho Corleone</h5>
+                        <p class="card-text">Del álbum "Un Verano Sin Ti" (2022). Más de 900 millones de visitas en YouTube.</p>
+                    </div>
+                    <div class="ratio ratio-16x9">
+                        <video class="card-img-top" controls>
+                            <source src="./videos/me-porto-bonito.mp4" type="video/mp4">
+                            Tu navegador no soporta el elemento de video.
+                        </video>
+                    </div>
+                    <div class="card-footer">
+                        <p>Uno de los videos más exitosos de Bad Bunny, con un estilo playero y desenfadado que encaja perfectamente con la temática veraniega del álbum. Contó con la colaboración de Chencho Corleone.</p>
+                    </div>
                 </div>
             </div>
             
-            <div class="col-md-4 mb-4">
-                <div class="video-container mb-4">
-                    <h4>Moscow Mule</h4>
-                    <video controls poster="https://i.ytimg.com/vi/p38WgakuYDo/maxresdefault.jpg" class="w-100">
-                        <source src="./videos/moscow-mule.mp4" type="video/mp4">
-                        Tu navegador no soporta este video.
-                    </video>
-                    <script type="application/ld+json">
-                    {
-                      "@context": "https://schema.org",
-                      "@type": "VideoObject",
-                      "name": "Moscow Mule",
-                      "description": "Fragmento del videoclip 'Moscow Mule' de Bad Bunny",
-                      "thumbnailUrl": "https://i.ytimg.com/vi/p38WgakuYDo/maxresdefault.jpg",
-                      "uploadDate": "2022-05-06",
-                      "contentUrl": "./videos/moscow-mule.mp4",
-                      "duration": "PT10S"
-                    }
-                    </script>
-                    <p class="mt-3">Primer sencillo y video del álbum "Un Verano Sin Ti", grabado en Miami y Puerto Rico, con escenas en la playa que capturan la esencia veraniega del álbum.</p>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Yonaguni</h5>
+                        <p class="card-text">Single (2021). Más de 700 millones de visitas en YouTube.</p>
+                    </div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/doLMt10ytHY" title="Yonaguni - Bad Bunny" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-footer">
+                        <p>Este video muestra un día en la vida de Bad Bunny, culminando con una secuencia animada inspirada en Japón. La canción incluye versos en japonés al final.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Dákiti ft. Jhay Cortez</h5>
+                        <p class="card-text">Del álbum "El Último Tour Del Mundo" (2020). Más de 1 billón de visitas en YouTube.</p>
+                    </div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TmKh7lAwnBI" title="Dákiti - Bad Bunny y Jhay Cortez" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-footer">
+                        <p>Un videoclip futurista con efectos visuales impresionantes, donde Bad Bunny y Jhay Cortez aparecen en un mundo submarino y nocturno.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">La Noche de Anoche ft. Rosalía</h5>
+                        <p class="card-text">Del álbum "El Último Tour Del Mundo" (2020). Más de 400 millones de visitas en YouTube.</p>
+                    </div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/f5omY8jVrSM" title="La Noche de Anoche - Bad Bunny y Rosalía" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-footer">
+                        <p>Un video artístico donde Bad Bunny y Rosalía interpretan a dos amantes atormentados, con una estética de fuego que simboliza la intensidad de su relación.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <footer class="bg-dark text-white py-4">
+    <footer class="bg-dark text-white py-4 mt-5">
         <div class="container text-center">
             <p>© 2025 Bad Bunny Fan Page - Sitio no oficial</p>
         </div>
